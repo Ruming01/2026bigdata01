@@ -1,2 +1,19 @@
 1교시
-리눅스 기초 명령, 깃 기초 명령
+리눅스 기초 명령어
+ls
+ls -a
+touch week01.txt
+cd .git
+cd ..
+echo "daelim"
+echo "daelim" >> daelim.txt
+vi daelim.txt
+
+깃 기초 명령어
+git status
+git add week01.txt
+git add .
+git reset
+git commit -m
+git checkout (해시코드)
+git checkout -
