@@ -13,5 +13,5 @@ titanic01 = titanic01.dropna(subset=['embark_town'])
 titanic01['age'] = titanic01['age'].fillna(titanic01['age'].median())
 print(titanic01.info())
 
-sns.barplot(data=titanic01, x='pclass', y = 'survived')
+sns.barplot(data=titanic01, x='embark_town', y = 'survived')
 plt.show()
